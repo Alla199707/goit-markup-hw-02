@@ -68,7 +68,7 @@ img {
 /* .link:visited{
     color:var(--primery-text-color);
 } */
-/* секция логотипа */
+/* ------------------секция логотипа----------------- */
 .logo {
   color: var(--accent-color);
   font-family: 'Raleway', sans-serif;
@@ -110,7 +110,7 @@ img {
 .links-contacts.current {
   color: var(--accent-color);
 }
-/* Секция контактов */
+/* -----------------------Секция контактов------------- */
 .links-contacts {
   color: var(--owner-text-color);
   font-weight: 500;
@@ -122,7 +122,7 @@ img {
 .links-contacts:focus {
   color: var(--accent-color);
 }
-/*Секция героя*/
+/*--------------------------Секция героя----------------------*/
 .hero-title {
   color: var(--secondory-white-color);
   font-weight: 900;
@@ -153,7 +153,7 @@ img {
   background: var(--accent-color);
   color: var(--secondory-white-color);
 }
-/* Секция преимуществ */
+/* --------------------Секция преимуществ---------------- */
 .advantages-list {
   font-weight: 700;
   font-size: 14px;
@@ -175,7 +175,7 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
 }
-/* Наша команда */
+/* ----------------Наша команда-------------- */
 /* .our-team-section{
   background: var(--buttons-port-color);
 } */
