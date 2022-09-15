@@ -33,7 +33,7 @@
 }
 body {
   color: var(--main-text-color);
-  background: var(--background-color);
+  background: var(--secondory-white-color);
   font-family: var(--main-font);
   font-size: 14px;
   letter-spacing: 0.03em;
@@ -89,6 +89,10 @@ body {
   color: var(--accent-color);
 }
 /*--------------------------Секция героя----------------------*/
+.hero,
+.page-footer {
+  background-color: var(--background-footer-color);
+}
 .hero-title {
   color: var(--secondory-white-color);
   font-weight: 900;
@@ -99,11 +103,11 @@ body {
   text-align: center;
 }
 .button {
-  background: var(--buttons-port-color);
-  color: var(--main-text-color);
+  background: var(--accent-color);
+  color: var(--secondory-white-color);
   font-family: inherit;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  font-weight: 900;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
   cursor: pointer;
@@ -111,18 +115,18 @@ body {
   padding: 0;
   border-radius: 4px;
   background-color: transparent;
+  letter-spacing: 0.06em;
 }
 .button:hover,
-.button:focus,
-.button.current {
-  background: var(--accent-color);
-  color: var(--secondory-white-color);
+.button:focus {
+  background-color: #188ce8;
 }
 /* --------------------Секция преимуществ---------------- */
 .advantages-list {
   font-weight: 700;
   line-height: 1.14;
   text-transform: uppercase;
+  font-size: 14px;
 }
 .description-advantages {
   color: var(--owner-text-color);
@@ -136,6 +140,9 @@ body {
   text-align: center;
 }
 /* ----------------Наша команда-------------- */
+.our-team-section {
+  background-color: var(--buttons-port-color);
+}
 .team-list {
   font-weight: 500;
   font-size: 16px;
@@ -177,4 +184,5 @@ body {
 .address-footer {
   color: var(footer-text-color);
   line-height: 1.7;
+  font-style: normal;
 }
